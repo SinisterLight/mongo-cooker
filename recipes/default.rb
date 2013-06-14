@@ -1,4 +1,4 @@
-include_recipe '10gen-repo'
+include_recipe 'mongo-server::10gen-repo'
 package "mongo-10gen-server"
 package "mongo-10gen" 
 
